@@ -1,0 +1,501 @@
+[0.013s] Invoking command in '/home/ycao/virtual_roam_2/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ycao/virtual_roam_2/src/champ_msgs -DCMAKE_INSTALL_PREFIX=/home/ycao/virtual_roam_2/install/champ_msgs
+[0.062s] -- The C compiler identification is GNU 13.3.0
+[0.107s] -- The CXX compiler identification is GNU 13.3.0
+[0.121s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.300s] -- Detecting CXX compile features
+[0.300s] -- Detecting CXX compile features - done
+[0.303s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.418s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.511s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.565s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.607s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.610s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.638s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.110s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.945s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.948s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.042s] -- Found PythonExtra: /usr/bin/python3  
+[2.336s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.380s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.384s] -- Configuring done (2.4s)
+[2.420s] -- Generating done (0.0s)
+[2.429s] -- Build files have been written to: /home/ycao/virtual_roam_2/build/champ_msgs
+[2.435s] Invoked command in '/home/ycao/virtual_roam_2/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ycao/virtual_roam_2/src/champ_msgs -DCMAKE_INSTALL_PREFIX=/home/ycao/virtual_roam_2/install/champ_msgs
+[2.436s] Invoking command in '/home/ycao/virtual_roam_2/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ycao/virtual_roam_2/build/champ_msgs -- -j16 -l16
+[2.480s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.486s] [  1%] Built target ament_cmake_python_copy_champ_msgs
+[2.624s] running egg_info
+[2.624s] creating champ_msgs.egg-info
+[2.636s] writing champ_msgs.egg-info/PKG-INFO
+[2.637s] writing dependency_links to champ_msgs.egg-info/dependency_links.txt
+[2.637s] writing top-level names to champ_msgs.egg-info/top_level.txt
+[2.637s] writing manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[2.645s] [  1%] Built target champ_msgs__rosidl_generator_type_description
+[2.656s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.665s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.673s] reading manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[2.673s] writing manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[2.693s] [  2%] Built target ament_cmake_python_build_champ_msgs_egg
+[2.966s] [  2%] Built target champ_msgs__cpp
+[3.055s] [  4%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/velocities__functions.c.o[0m
+[3.056s] [  4%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pid__description.c.o[0m
+[3.056s] [  5%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pid__functions.c.o[0m
+[3.056s] [  6%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/velocities__type_support.c.o[0m
+[3.058s] [  7%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point__description.c.o[0m
+[3.061s] [  7%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pid__type_support.c.o[0m
+[3.062s] [  9%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point_array__type_support.c.o[0m
+[3.062s] [  9%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/velocities__description.c.o[0m
+[3.062s] [ 10%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point__functions.c.o[0m
+[3.062s] [ 10%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point_array__functions.c.o[0m
+[3.063s] [ 11%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/imu__description.c.o[0m
+[3.063s] [ 13%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/imu__type_support.c.o[0m
+[3.063s] [ 13%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/joints__description.c.o[0m
+[3.064s] [ 14%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/imu__functions.c.o[0m
+[3.065s] [ 15%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point__type_support.c.o[0m
+[3.066s] [ 16%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point_array__description.c.o[0m
+[3.091s] [ 17%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts__description.c.o[0m
+[3.091s] [ 18%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/joints__functions.c.o[0m
+[3.092s] [ 19%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/joints__type_support.c.o[0m
+[3.094s] [ 20%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts__functions.c.o[0m
+[3.094s] [ 21%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts__type_support.c.o[0m
+[3.097s] [ 22%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts_stamped__functions.c.o[0m
+[3.097s] [ 22%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts_stamped__description.c.o[0m
+[3.117s] [ 23%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pose__description.c.o[0m
+[3.122s] [ 24%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts_stamped__type_support.c.o[0m
+[3.125s] [ 25%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pose__functions.c.o[0m
+[3.129s] [ 26%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pose__type_support.c.o[0m
+[3.163s] [ 27%] [32m[1mLinking C shared library libchamp_msgs__rosidl_generator_c.so[0m
+[3.199s] [ 27%] Built target champ_msgs__rosidl_generator_c
+[3.208s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.209s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.209s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.211s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.211s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.212s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.441s] [ 33%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/velocities__type_support.cpp.o[0m
+[3.441s] [ 34%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/contacts__type_support.cpp.o[0m
+[3.443s] [ 35%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/pid__type_support.cpp.o[0m
+[3.445s] [ 36%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/contacts_stamped__type_support.cpp.o[0m
+[3.446s] [ 37%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/point__type_support.cpp.o[0m
+[3.449s] [ 38%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/imu__type_support.cpp.o[0m
+[3.449s] [ 38%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/joints__type_support.cpp.o[0m
+[3.449s] [ 39%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/point_array__type_support.cpp.o[0m
+[3.457s] [ 40%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/pose__type_support.cpp.o[0m
+[3.463s] [ 41%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/velocities__type_support.cpp.o[0m
+[3.468s] [ 42%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/pid__type_support.cpp.o[0m
+[3.480s] [ 43%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/imu__type_support.cpp.o[0m
+[3.506s] [ 44%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/point_array__type_support.cpp.o[0m
+[3.508s] [ 44%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/point__type_support.cpp.o[0m
+[3.513s] [ 45%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/joints__type_support.cpp.o[0m
+[3.517s] [ 46%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/contacts_stamped__type_support.cpp.o[0m
+[3.519s] [ 47%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/contacts__type_support.cpp.o[0m
+[3.523s] [ 48%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_c.so[0m
+[3.524s] [ 49%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/pose__type_support.cpp.o[0m
+[3.570s] [ 50%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/velocities__type_support.cpp.o[0m
+[3.587s] [ 50%] Built target champ_msgs__rosidl_typesupport_c
+[3.587s] [ 52%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/imu__type_support.cpp.o[0m
+[3.587s] [ 52%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/pid__type_support.cpp.o[0m
+[3.593s] [ 53%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/velocities__type_support.c.o[0m
+[3.596s] [ 54%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/pid__type_support.c.o[0m
+[3.644s] [ 55%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/point__type_support.cpp.o[0m
+[3.656s] [ 55%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/imu__type_support.c.o[0m
+[3.714s] [ 56%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/point__type_support.c.o[0m
+[3.753s] [ 57%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/point_array__type_support.c.o[0m
+[3.799s] [ 58%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/joints__type_support.c.o[0m
+[3.838s] [ 59%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/point_array__type_support.cpp.o[0m
+[3.845s] [ 60%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/velocities__type_support.cpp.o[0m
+[3.864s] [ 60%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/velocities__type_support_c.cpp.o[0m
+[3.867s] [ 61%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/contacts__type_support.c.o[0m
+[3.879s] [ 62%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/pid__type_support.cpp.o[0m
+[3.883s] [ 63%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/pid__type_support_c.cpp.o[0m
+[3.885s] [ 64%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[3.885s] [ 65%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/joints__type_support.cpp.o[0m
+[3.886s] [ 66%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/imu__type_support_c.cpp.o[0m
+[3.922s] [ 67%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/contacts_stamped__type_support.c.o[0m
+[3.929s] [ 68%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[3.952s] [ 69%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/pose__type_support.c.o[0m
+[3.967s] [ 70%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_cpp.so[0m
+[3.983s] [ 71%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/point__type_support_c.cpp.o[0m
+[4.002s] [ 72%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/point_array__type_support_c.cpp.o[0m
+[4.008s] [ 73%] [32m[1mLinking C shared library libchamp_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.012s] [ 74%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/contacts__type_support.cpp.o[0m
+[4.015s] [ 75%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/point_array__type_support.cpp.o[0m
+[4.042s] [ 75%] Built target champ_msgs__rosidl_typesupport_cpp
+[4.057s] [ 75%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/joints__type_support.cpp.o[0m
+[4.068s] [ 75%] Built target champ_msgs__rosidl_typesupport_introspection_c
+[4.080s] [ 75%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/contacts_stamped__type_support.cpp.o[0m
+[4.085s] [ 76%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/joints__type_support_c.cpp.o[0m
+[4.264s] [ 77%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/pose__type_support.cpp.o[0m
+[4.364s] [ 78%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/contacts__type_support_c.cpp.o[0m
+[4.377s] [ 79%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/contacts__type_support.cpp.o[0m
+[4.422s] [ 80%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/contacts_stamped__type_support_c.cpp.o[0m
+[4.487s] [ 81%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/contacts_stamped__type_support.cpp.o[0m
+[4.495s] [ 81%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/pose__type_support_c.cpp.o[0m
+[4.500s] [ 82%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[4.612s] [ 83%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.693s] [ 83%] Built target champ_msgs__rosidl_typesupport_introspection_cpp
+[4.869s] [ 84%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.878s] [ 85%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.920s] [ 85%] Built target champ_msgs__rosidl_typesupport_fastrtps_c
+[4.928s] [ 85%] Built target champ_msgs__rosidl_typesupport_fastrtps_cpp
+[4.946s] [ 85%] Built target champ_msgs
+[4.964s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.372s] [ 86%] Built target champ_msgs__py
+[5.391s] [ 86%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o[0m
+[5.391s] [ 89%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o[0m
+[5.391s] [ 89%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o[0m
+[5.391s] [ 89%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o[0m
+[5.392s] [ 90%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o[0m
+[5.393s] [ 91%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o[0m
+[5.395s] [ 92%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o[0m
+[5.395s] [ 93%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o[0m
+[5.395s] [ 94%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o[0m
+[5.523s] [ 94%] [32m[1mLinking C shared library libchamp_msgs__rosidl_generator_py.so[0m
+[5.562s] [ 94%] Built target champ_msgs__rosidl_generator_py
+[5.580s] [ 97%] [32mBuilding C object CMakeFiles/champ_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.580s] [ 97%] [32mBuilding C object CMakeFiles/champ_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.580s] [ 97%] [32mBuilding C object CMakeFiles/champ_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.663s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[5.665s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_c.so[0m
+[5.665s] [100%] [32m[1mLinking C shared module rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.691s] [100%] Built target champ_msgs_s__rosidl_typesupport_c
+[5.691s] [100%] Built target champ_msgs_s__rosidl_typesupport_introspection_c
+[5.692s] [100%] Built target champ_msgs_s__rosidl_typesupport_fastrtps_c
+[5.702s] Invoked command in '/home/ycao/virtual_roam_2/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ycao/virtual_roam_2/build/champ_msgs -- -j16 -l16
+[5.703s] Invoking command in '/home/ycao/virtual_roam_2/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ycao/virtual_roam_2/build/champ_msgs
+[5.710s] -- Install configuration: ""
+[5.710s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/ament_index/resource_index/rosidl_interfaces/champ_msgs
+[5.710s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Velocities.json
+[5.711s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/PID.json
+[5.711s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Imu.json
+[5.711s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Point.json
+[5.711s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/PointArray.json
+[5.711s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Joints.json
+[5.711s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Contacts.json
+[5.711s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.json
+[5.711s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Pose.json
+[5.711s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs
+[5.712s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[5.712s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.712s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point.h
+[5.712s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.h
+[5.712s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point_array.h
+[5.712s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pid.h
+[5.712s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[5.712s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.h
+[5.712s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__functions.h
+[5.713s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__struct.h
+[5.713s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__functions.c
+[5.713s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__functions.h
+[5.713s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__struct.h
+[5.713s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__description.c
+[5.713s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.h
+[5.713s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.h
+[5.713s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.c
+[5.713s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__struct.h
+[5.714s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__description.c
+[5.714s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__functions.c
+[5.714s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__description.c
+[5.714s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__struct.h
+[5.714s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.h
+[5.714s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.h
+[5.714s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.c
+[5.714s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__description.c
+[5.714s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.h
+[5.714s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__functions.h
+[5.715s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.h
+[5.715s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__functions.c
+[5.715s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.c
+[5.715s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__functions.h
+[5.716s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.h
+[5.716s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__functions.h
+[5.716s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__functions.c
+[5.716s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__description.c
+[5.716s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.c
+[5.716s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.c
+[5.716s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__functions.c
+[5.716s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__description.c
+[5.716s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__functions.h
+[5.716s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.h
+[5.716s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.c
+[5.716s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__functions.h
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.h
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.c
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__functions.c
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__functions.c
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.h
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.c
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.h
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__description.c
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__functions.h
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__functions.c
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__description.c
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__struct.h
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__functions.h
+[5.717s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__functions.c
+[5.718s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.c
+[5.718s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__description.c
+[5.718s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.h
+[5.718s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.h
+[5.718s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/velocities.h
+[5.718s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pose.h
+[5.718s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.h
+[5.718s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.h
+[5.718s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/environment/library_path.sh
+[5.718s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/environment/library_path.dsv
+[5.718s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so
+[5.719s] -- Set non-toolchain portion of runtime path of "/home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so" to ""
+[5.719s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs
+[5.719s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[5.719s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.719s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[5.719s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_fastrtps_c.h
+[5.719s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[5.719s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_fastrtps_c.h
+[5.719s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+[5.719s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_fastrtps_c.h
+[5.719s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[5.720s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h
+[5.720s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_fastrtps_c.h
+[5.720s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[5.720s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so
+[5.720s] -- Set non-toolchain portion of runtime path of "/home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.720s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs
+[5.720s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[5.720s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.720s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[5.720s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_introspection_c.h
+[5.720s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_introspection_c.h
+[5.721s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.c
+[5.721s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.c
+[5.721s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.c
+[5.721s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.c
+[5.721s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.c
+[5.721s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_introspection_c.h
+[5.721s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.c
+[5.721s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.c
+[5.721s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[5.722s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+[5.722s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.c
+[5.722s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_introspection_c.h
+[5.722s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[5.722s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_introspection_c.h
+[5.722s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[5.722s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.c
+[5.722s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so
+[5.722s] -- Set non-toolchain portion of runtime path of "/home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.722s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so
+[5.722s] -- Set non-toolchain portion of runtime path of "/home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so" to ""
+[5.722s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs
+[5.723s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[5.723s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pid.hpp
+[5.723s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point_array.hpp
+[5.723s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.hpp
+[5.723s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.hpp
+[5.723s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point.hpp
+[5.723s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.723s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[5.723s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__traits.hpp
+[5.723s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__struct.hpp
+[5.724s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.hpp
+[5.724s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__struct.hpp
+[5.724s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__builder.hpp
+[5.724s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__traits.hpp
+[5.724s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.hpp
+[5.724s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.hpp
+[5.724s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__traits.hpp
+[5.724s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__builder.hpp
+[5.724s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__builder.hpp
+[5.724s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.hpp
+[5.724s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.hpp
+[5.724s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__traits.hpp
+[5.725s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__traits.hpp
+[5.725s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__traits.hpp
+[5.725s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__struct.hpp
+[5.725s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.hpp
+[5.725s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__struct.hpp
+[5.725s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__builder.hpp
+[5.725s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.hpp
+[5.725s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.hpp
+[5.725s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.hpp
+[5.725s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.hpp
+[5.725s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__builder.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__traits.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__builder.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__builder.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__traits.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__builder.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__builder.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__traits.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__struct.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pose.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/velocities.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.hpp
+[5.726s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.hpp
+[5.727s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs
+[5.727s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[5.727s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.727s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[5.727s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[5.727s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.727s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[5.727s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_fastrtps_cpp.hpp
+[5.727s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/dds_fastrtps
+[5.727s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_fastrtps_cpp.hpp
+[5.727s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[5.728s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[5.728s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_fastrtps_cpp.hpp
+[5.728s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_fastrtps_cpp.hpp
+[5.728s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.728s] -- Set non-toolchain portion of runtime path of "/home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.728s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs
+[5.728s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[5.728s] -- Up-to-date: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[5.728s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[5.728s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.cpp
+[5.728s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[5.729s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.cpp
+[5.729s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_introspection_cpp.hpp
+[5.729s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_introspection_cpp.hpp
+[5.729s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+[5.729s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_introspection_cpp.hpp
+[5.729s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_introspection_cpp.hpp
+[5.729s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_introspection_cpp.hpp
+[5.729s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.cpp
+[5.729s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.cpp
+[5.729s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.cpp
+[5.729s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.cpp
+[5.730s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.cpp
+[5.730s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.cpp
+[5.730s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[5.730s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.cpp
+[5.730s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so
+[5.730s] -- Set non-toolchain portion of runtime path of "/home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.730s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so
+[5.730s] -- Set non-toolchain portion of runtime path of "/home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so" to ""
+[5.730s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/environment/pythonpath.sh
+[5.730s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/environment/pythonpath.dsv
+[5.730s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info
+[5.730s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info/dependency_links.txt
+[5.731s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info/PKG-INFO
+[5.731s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info/SOURCES.txt
+[5.731s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info/top_level.txt
+[5.731s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs
+[5.731s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.so
+[5.731s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg
+[5.731s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_joints_s.c
+[5.731s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/__init__.py
+[5.731s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point.py
+[5.731s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pose_s.c
+[5.731s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts.py
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point_s.c
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_imu_s.c
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point_array.py
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pid.py
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts_s.c
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_velocities_s.c
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pose.py
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_velocities.py
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_imu.py
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point_array_s.c
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_joints.py
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pid_s.c
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts_stamped_s.c
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts_stamped.py
+[5.732s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/__init__.py
+[5.733s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.so
+[5.733s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c
+[5.733s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.733s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.733s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.761s] Listing '/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs'...
+[5.761s] Compiling '/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/__init__.py'...
+[5.761s] Listing '/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg'...
+[5.761s] Compiling '/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/__init__.py'...
+[5.762s] Compiling '/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts.py'...
+[5.762s] Compiling '/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts_stamped.py'...
+[5.762s] Compiling '/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_imu.py'...
+[5.762s] Compiling '/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_joints.py'...
+[5.762s] Compiling '/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pid.py'...
+[5.762s] Compiling '/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point.py'...
+[5.762s] Compiling '/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point_array.py'...
+[5.762s] Compiling '/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pose.py'...
+[5.762s] Compiling '/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_velocities.py'...
+[5.765s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.765s] -- Set non-toolchain portion of runtime path of "/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.765s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.so
+[5.766s] -- Set non-toolchain portion of runtime path of "/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[5.766s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.so
+[5.766s] -- Set non-toolchain portion of runtime path of "/home/ycao/virtual_roam_2/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.so" to ""
+[5.766s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so
+[5.767s] -- Set non-toolchain portion of runtime path of "/home/ycao/virtual_roam_2/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so" to ""
+[5.767s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Velocities.idl
+[5.767s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/PID.idl
+[5.767s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Imu.idl
+[5.767s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Point.idl
+[5.767s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/PointArray.idl
+[5.767s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Joints.idl
+[5.767s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Contacts.idl
+[5.767s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.idl
+[5.768s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Pose.idl
+[5.768s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Velocities.msg
+[5.768s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/PID.msg
+[5.768s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Imu.msg
+[5.768s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Point.msg
+[5.768s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/PointArray.msg
+[5.768s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Joints.msg
+[5.768s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Contacts.msg
+[5.768s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.msg
+[5.768s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/msg/Pose.msg
+[5.769s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/ament_index/resource_index/package_run_dependencies/champ_msgs
+[5.769s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/ament_index/resource_index/parent_prefix_path/champ_msgs
+[5.769s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/environment/ament_prefix_path.sh
+[5.769s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/environment/ament_prefix_path.dsv
+[5.769s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/environment/path.sh
+[5.769s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/environment/path.dsv
+[5.769s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/local_setup.bash
+[5.769s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/local_setup.sh
+[5.769s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/local_setup.zsh
+[5.769s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/local_setup.dsv
+[5.769s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/package.dsv
+[5.770s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/ament_index/resource_index/packages/champ_msgs
+[5.770s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cExport.cmake
+[5.770s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.770s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.770s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.770s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.770s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.770s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cExport.cmake
+[5.770s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.770s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cppExport.cmake
+[5.770s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.771s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.771s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.771s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.771s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cppExport.cmake
+[5.771s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.771s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_pyExport.cmake
+[5.771s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.771s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake-extras.cmake
+[5.771s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.771s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.771s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.771s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.772s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.772s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.772s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig.cmake
+[5.772s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig-version.cmake
+[5.772s] -- Installing: /home/ycao/virtual_roam_2/install/champ_msgs/share/champ_msgs/package.xml
+[5.774s] Invoked command in '/home/ycao/virtual_roam_2/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ycao/virtual_roam_2/build/champ_msgs
