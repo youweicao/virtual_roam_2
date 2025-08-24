@@ -33,7 +33,7 @@ def generate_launch_description():
     gait_config = os.path.join(unitree_go2_sim, "config/gait/gait.yaml")
     links_config = os.path.join(unitree_go2_sim, "config/links/links.yaml")
     default_model_path = os.path.join(unitree_go2_description, "urdf/unitree_go2_robot.xacro")
-    default_world_path = os.path.join(unitree_go2_description, "worlds/default.sdf")
+    default_world_path = os.path.join(unitree_go2_description, "worlds/scene.sdf")
 
     declare_use_sim_time = DeclareLaunchArgument(
         "use_sim_time",
@@ -177,7 +177,7 @@ def generate_launch_description():
         launch_arguments={'gz_args': PathJoinSubstitution([
             unitree_go2_description,
             'worlds',
-            'default.sdf'
+            'scene.sdf'
         ])}.items(),
     )
     
@@ -189,9 +189,9 @@ def generate_launch_description():
         arguments=[
             '-name', LaunchConfiguration('robot_name'),
             '-topic', 'robot_description',
-            '-x', "0.0",
-            '-y', "0.0",
-            '-z', "1.05",
+            '-x', "0.72",
+            '-y', "-5.63",
+            '-z', "0.60",
             '-Y', LaunchConfiguration('world_init_heading')
         ],
     )
